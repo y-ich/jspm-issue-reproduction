@@ -1,0 +1,24 @@
+{
+  "name": "try-jspm2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "jspm": "^0.17.0-beta.47"
+  },
+  "dependencies": {},
+  "jspm": {
+    "name": "try-jspm2",
+    "main": "try-jspm2.js",
+    "dependencies": {},
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.25"
+    }
+  }
+}
